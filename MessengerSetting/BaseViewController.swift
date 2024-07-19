@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BasicViewController: UIViewController {
+class BaseViewcontroller: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +18,7 @@ class BasicViewController: UIViewController {
         setUpHierarchy()
         setUpLayout()
         setUpView()
+        setupNavigationItem()
     }
     
     func setUpHierarchy() {}
@@ -25,4 +26,5 @@ class BasicViewController: UIViewController {
     func setUpLayout() {}
     
     func setUpView() {}
+    func setupNavigationItem() { }
 }

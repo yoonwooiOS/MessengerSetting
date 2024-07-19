@@ -16,6 +16,8 @@
 		99AFA4602C492A78003142D6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFA45F2C492A78003142D6 /* BaseViewController.swift */; };
 		99AFA4622C4938B7003142D6 /* SfSymbolsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFA4612C4938B7003142D6 /* SfSymbolsModel.swift */; };
 		99AFA4642C4938DD003142D6 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFA4632C4938DD003142D6 /* Section.swift */; };
+		99AFA4672C4A0242003142D6 /* TravelTalkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFA4662C4A0242003142D6 /* TravelTalkListViewController.swift */; };
+		99AFA4692C4A0D71003142D6 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AFA4682C4A0D71003142D6 /* FriendModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		99AFA45F2C492A78003142D6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		99AFA4612C4938B7003142D6 /* SfSymbolsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SfSymbolsModel.swift; sourceTree = "<group>"; };
 		99AFA4632C4938DD003142D6 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		99AFA4662C4A0242003142D6 /* TravelTalkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTalkListViewController.swift; sourceTree = "<group>"; };
+		99AFA4682C4A0D71003142D6 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,11 @@
 		99AFA43A2C49289A003142D6 = {
 			isa = PBXGroup;
 			children = (
+				99AFA4462C49289B003142D6 /* AppDelegate.swift */,
+				99AFA4482C49289B003142D6 /* SceneDelegate.swift */,
+				99AFA4512C49289C003142D6 /* LaunchScreen.storyboard */,
+				99AFA44F2C49289C003142D6 /* Assets.xcassets */,
+				99AFA4652C4A019C003142D6 /* TravelTalk */,
 				99AFA4452C49289A003142D6 /* MessengerSetting */,
 				99AFA4442C49289A003142D6 /* Products */,
 			);
@@ -62,10 +71,6 @@
 		99AFA4452C49289A003142D6 /* MessengerSetting */ = {
 			isa = PBXGroup;
 			children = (
-				99AFA4462C49289B003142D6 /* AppDelegate.swift */,
-				99AFA4482C49289B003142D6 /* SceneDelegate.swift */,
-				99AFA44F2C49289C003142D6 /* Assets.xcassets */,
-				99AFA4512C49289C003142D6 /* LaunchScreen.storyboard */,
 				99AFA4542C49289C003142D6 /* Info.plist */,
 				99AFA45A2C4928D5003142D6 /* SettingViewController.swift */,
 				99AFA45F2C492A78003142D6 /* BaseViewController.swift */,
@@ -73,6 +78,15 @@
 				99AFA4632C4938DD003142D6 /* Section.swift */,
 			);
 			path = MessengerSetting;
+			sourceTree = "<group>";
+		};
+		99AFA4652C4A019C003142D6 /* TravelTalk */ = {
+			isa = PBXGroup;
+			children = (
+				99AFA4662C4A0242003142D6 /* TravelTalkListViewController.swift */,
+				99AFA4682C4A0D71003142D6 /* FriendModel.swift */,
+			);
+			path = TravelTalk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +170,9 @@
 				99AFA4492C49289B003142D6 /* SceneDelegate.swift in Sources */,
 				99AFA4642C4938DD003142D6 /* Section.swift in Sources */,
 				99AFA45B2C4928D5003142D6 /* SettingViewController.swift in Sources */,
+				99AFA4692C4A0D71003142D6 /* FriendModel.swift in Sources */,
 				99AFA4622C4938B7003142D6 /* SfSymbolsModel.swift in Sources */,
+				99AFA4672C4A0242003142D6 /* TravelTalkListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

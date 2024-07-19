@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class SettingViewController: BasicViewController {
+class SettingViewController: BaseViewcontroller {
     
     lazy var collectionView = {
         let tableView = UICollectionView(frame: .zero, collectionViewLayout: createLayout())
@@ -19,7 +19,7 @@ class SettingViewController: BasicViewController {
     var dataSource: UICollectionViewDiffableDataSource<Section,  SfSymbols>!
     func createLayout() -> UICollectionViewLayout {
         var configuration = UICollectionLayoutListConfiguration(appearance: .insetGrouped)
-        configuration.backgroundColor = .black
+//        configuration.backgroundColor = .black
         configuration.showsSeparators = true
         
         let layout = UICollectionViewCompositionalLayout.list(using: configuration)
