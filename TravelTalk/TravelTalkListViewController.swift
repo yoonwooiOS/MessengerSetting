@@ -63,11 +63,11 @@ class TravelTalkListViewController: BaseViewcontroller {
             content.secondaryText = itemIdentifier.talk
             content.secondaryTextProperties.font = .systemFont(ofSize: 12)
             content.image = itemIdentifier.image
-            content.imageProperties.tintColor = .systemGreen
+            content.imageProperties.maximumSize = CGSize(width: 50, height: 50)
             
             // UICollectionViewListCell 콘텐츠 설정 부분
             cell.contentConfiguration = content
-            
+           
         }
         dataSource = UICollectionViewDiffableDataSource(collectionView: collectionView, cellProvider: { collectionView, indexPath, itemIdentifier in
             
